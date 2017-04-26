@@ -107,3 +107,5 @@ def nb_predict(doc):
 
   return sorted(multi_variate_bernoulli_nb, key = lambda x: multi_variate_bernoulli_nb[x], reverse = True)[0]
 
+nb_train()
+
