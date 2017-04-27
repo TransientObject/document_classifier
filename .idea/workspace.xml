@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58858da7-713f-45e3-a86b-0e931d9d520c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/tfidf.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifier.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/document_classifier.iml" afterPath="$PROJECT_DIR$/.idea/document_classifier.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tfidf.py" afterPath="$PROJECT_DIR$/data/tfidf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/perceptron.py" afterPath="$PROJECT_DIR$/perceptron.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +22,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="perceptron.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="perceptron.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/perceptron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-500">
-              <caret line="97" column="16" lean-forward="true" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+            <state relative-caret-position="765">
+              <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -30,8 +34,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tfidf.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tfidf.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/tfidf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classifier.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/classifier.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -43,7 +57,7 @@
       <file leaf-file-name="test-results.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/test-results.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3808">
+            <state relative-caret-position="4032">
               <caret line="224" column="37" lean-forward="false" selection-start-line="224" selection-start-column="37" selection-end-line="224" selection-end-column="37" />
               <folding />
             </state>
@@ -53,7 +67,7 @@
       <file leaf-file-name="project2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="432">
               <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="12" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -70,9 +84,28 @@
       <find>preprocessing</find>
       <find>and</find>
       <find>data</find>
+      <find>total_number_of_words</find>
+      <find>word_count_per_file_hash</find>
+      <find>feature_probability_per_file</find>
+      <find>files_per_class</find>
+      <find>feature_set</find>
+      <find>alphaalpha</find>
+      <find>alpha</find>
+      <find>self.self</find>
+      <find>initiate_weights</find>
+      <find>train_perceptrons</find>
+      <find>extract_feature_set</find>
+      <find>total_number</find>
+      <find>num_of_docs_per_class</find>
     </findStrings>
     <replaceStrings>
       <replace>feature_set</replace>
+      <replace>self.total_number_of_words</replace>
+      <replace>self.word_count_per_file_hash</replace>
+      <replace>self.feature_probability_per_file</replace>
+      <replace>self.files_per_class</replace>
+      <replace>self.feature_set</replace>
+      <replace>self.alpha</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\Administrator\gitprojects\document_classifier\data</dir>
@@ -87,12 +120,13 @@
         <option value="$PROJECT_DIR$/nb.py" />
         <option value="$PROJECT_DIR$/data/perceptron.py" />
         <option value="$PROJECT_DIR$/data/test-results.txt" />
+        <option value="$PROJECT_DIR$/data/tfidf.py" />
         <option value="$PROJECT_DIR$/perceptron.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -115,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -144,11 +177,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -156,7 +190,7 @@
       <recent name="C:\Users\Administrator\gitprojects\document_classifier" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.perceptron">
+  <component name="RunManager" selected="Python.tfidf">
     <configuration default="false" name="nb" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,6 +221,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="document_classifier" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/perceptron.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tfidf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="document_classifier" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/tfidf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -325,14 +376,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.nb" />
       <item index="1" class="java.lang.String" itemvalue="Python.perceptron" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tfidf" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.perceptron" />
-        <item index="1" class="java.lang.String" itemvalue="Python.nb" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.tfidf" />
+        <item index="1" class="java.lang.String" itemvalue="Python.perceptron" />
+        <item index="2" class="java.lang.String" itemvalue="Python.nb" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +403,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -358,18 +411,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29281184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29281184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32135308" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -382,11 +435,6 @@
           <url>file://$PROJECT_DIR$/nb.py</url>
           <line>83</line>
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/perceptron.py</url>
-          <line>172</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -395,17 +443,259 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="44" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="total_number_of_words" language="Python" />
-        <watch expression="weights" language="Python" />
-        <watch expression="bias" language="Python" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2808">
+          <caret line="156" column="34" lean-forward="false" selection-start-line="156" selection-start-column="34" selection-end-line="156" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test-results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4032">
+          <caret line="224" column="37" lean-forward="false" selection-start-line="224" selection-start-column="37" selection-end-line="224" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2808">
+          <caret line="156" column="34" lean-forward="false" selection-start-line="156" selection-start-column="34" selection-end-line="156" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test-results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4032">
+          <caret line="224" column="37" lean-forward="false" selection-start-line="224" selection-start-column="37" selection-end-line="224" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2808">
+          <caret line="156" column="34" lean-forward="false" selection-start-line="156" selection-start-column="34" selection-end-line="156" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test-results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4032">
+          <caret line="224" column="37" lean-forward="false" selection-start-line="224" selection-start-column="37" selection-end-line="224" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2808">
+          <caret line="156" column="34" lean-forward="true" selection-start-line="156" selection-start-column="34" selection-end-line="156" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test-results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4032">
+          <caret line="224" column="37" lean-forward="false" selection-start-line="224" selection-start-column="37" selection-end-line="224" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test-results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4032">
+          <caret line="224" column="37" lean-forward="false" selection-start-line="224" selection-start-column="37" selection-end-line="224" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1746">
+          <caret line="97" column="16" lean-forward="true" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test-results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4032">
+          <caret line="224" column="37" lean-forward="false" selection-start-line="224" selection-start-column="37" selection-end-line="224" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/perceptron.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -461,13 +751,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/encodings/cp1252.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/encodings/cp1252.py" />
     <entry file="file://$PROJECT_DIR$/data/DR/OR_Deschutes_2008-06-04__2008-024063.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -482,28 +766,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/TEST/OR_Coos_2008-04-03__08003323.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/test-results.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3808">
-          <caret line="224" column="37" lean-forward="false" selection-start-line="224" selection-start-column="37" selection-end-line="224" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -512,26 +778,52 @@
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/perceptron.py">
+    <entry file="file://$PROJECT_DIR$/project2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-500">
-          <caret line="97" column="16" lean-forward="true" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+        <state relative-caret-position="432">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="12" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/tfidf.py">
+    <entry file="file://$PROJECT_DIR$/data/test-results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4032">
+          <caret line="224" column="37" lean-forward="false" selection-start-line="224" selection-start-column="37" selection-end-line="224" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/classifier.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
