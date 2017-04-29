@@ -1,3 +1,49 @@
+IntelliGrep
+
+correct classification -  107
+incorrect classification -  118
+accuracy -  0.47555555555555556
+
+                DR              DT              L
+
+DR              3               72              0
+
+DT              0               30              45
+
+L               0               1               74
+
+precision of class  DR 1.0
+recall of class  DR 0.04
+
+precision of class  DT 0.2912621359223301
+recall of class  DT 0.4
+
+precision of class  L 0.6218487394957983
+recall of class  L 0.9866666666666667
+
+Naives Bayes
+
+correct classification -  210
+incorrect classification -  15
+accuracy -  0.9333333333333333
+
+                DR              DT              L
+
+DR              74              0               1
+
+DT              11              63              1
+
+L               1               1               73
+
+precision of class  DR 0.8604651162790697
+recall of class  DR 0.9866666666666667
+
+precision of class  DT 0.984375
+recall of class  DT 0.84
+
+precision of class  L 0.9733333333333334
+recall of class  L 0.9733333333333334
+
 Naive Bayes Improved Version 1
 
 correct classification -  212
@@ -48,3 +94,25 @@ recall of class  L 0.9066666666666666
 
 Perceptron
 
+TFIDF / SGD Classifier
+
+correct classification -  225
+incorrect classification -  0
+accuracy -  1.0
+
+                DR              DT              L
+
+DR              75              0               0
+
+DT              0               75              0
+
+L               0               0               75
+
+precision of class  DR 1.0
+recall of class  DR 1.0
+
+precision of class  DT 1.0
+recall of class  DT 1.0
+
+precision of class  L 1.0
+recall of class  L 1.0

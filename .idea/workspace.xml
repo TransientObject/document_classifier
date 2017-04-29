@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58858da7-713f-45e3-a86b-0e931d9d520c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intelli_grep.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naivebayes_improve1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naivebayes_improve2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/perceptron_improved.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/results.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/intelligrep.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/nb.py" afterPath="$PROJECT_DIR$/naivesbayes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classifier_main.py" afterPath="$PROJECT_DIR$/classifier_main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/perceptron.py" afterPath="$PROJECT_DIR$/perceptron.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tfidf.py" afterPath="$PROJECT_DIR$/tfidf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results.txt" afterPath="$PROJECT_DIR$/results.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +36,8 @@
       <file leaf-file-name="results.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/results.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="799">
+              <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,8 +78,8 @@
       <file leaf-file-name="perceptron.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/perceptron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="157" column="45" lean-forward="false" selection-start-line="157" selection-start-column="29" selection-end-line="157" selection-end-column="45" />
+            <state relative-caret-position="-2336">
+              <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="24" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -122,13 +113,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</find>
-      <find>preprocessing</find>
       <find>and</find>
       <find>data</find>
       <find>total_number_of_words</find>
       <find>word_count_per_file_hash</find>
-      <find>feature_probability_per_file</find>
       <find>files_per_class</find>
       <find>feature_set</find>
       <find>alphaalpha</find>
@@ -152,6 +140,9 @@
       <find>nb_predict</find>
       <find />
       <find>enchant</find>
+      <find>break</find>
+      <find>feature_probability_per_file</find>
+      <find>2365.txt</find>
     </findStrings>
     <replaceStrings>
       <replace>feature_set</replace>
@@ -516,7 +507,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31012657" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31012657" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -573,11 +564,10 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="50" />
+      <option name="time" value="55" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="len(data.columns)" language="Python" />
         <watch expression="__py_debug_temp_var_2054947585" />
       </configuration>
     </watches-manager>
@@ -926,14 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/ProgramData/Anaconda3/Lib/random.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -952,10 +934,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/perceptron.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="157" column="45" lean-forward="false" selection-start-line="157" selection-start-column="29" selection-end-line="157" selection-end-column="45" />
+        <state relative-caret-position="-2336">
+          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="24" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

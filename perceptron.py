@@ -34,7 +34,7 @@ class Perceptron:
             self.weights[cl] = {}
             for word in list(self.feature_set):
                 self.weights[cl][word] = random.uniform(-0.5, 0.5)
-            self.bias[cl] = random.uniform(-0.5, 0.5)
+            self.bias[cl] = random.uniform(-0.15, 0.15)
             self.all_files += self.files_per_class[cl]
 
     def preprocessing(self, doc):
@@ -174,8 +174,12 @@ class Perceptron:
 
         for cl in self.classes:
             numerator = self.confusion_matrix[cl][cl] * 1.0
-            print ("precision of class ", cl, numerator / sum([self.confusion_matrix[j][cl] for j in self.classes]))
-            print ("recall of class ", cl, numerator / sum([self.confusion_matrix[cl][j] for j in self.classes]), "\n")
+            dr = sum([self.confusion_matrix[j][cl] for j in self.classes])
+            if dr > 0:
+                print ("precision of class ", cl, numerator / dr)
+            dr = sum([self.confusion_matrix[cl][j] for j in self.classes])
+            if dr > 0:
+                print ("recall of class ", cl, numerator / dr, "\n")
 
     def classify(self):
         # found using the above step
