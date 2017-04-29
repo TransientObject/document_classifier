@@ -17,6 +17,9 @@ class TfIdfClassifier:
 
     def __init__(self):
         self.classes = ['DR', 'DT', 'L']
+        self.success_count = 0
+        self.failure_count = 0
+        self.confusion_matrix = {'DR': {'DR': 0, 'DT': 0, 'L': 0}, 'DT': {'DR': 0, 'DT': 0, 'L': 0}, 'L': {'DR': 0, 'DT': 0, 'L': 0}}
 
     def create_dataset(self):
         rows = []
@@ -51,8 +54,6 @@ class TfIdfClassifier:
     def test(self, pip):
         i=0
         path = os.path.join('./data/', 'test-results.txt')
-        success_count = 0
-        failure_count = 0
         input = []
         actual = []
         predicted = []
@@ -70,20 +71,28 @@ class TfIdfClassifier:
             predicted = pip.predict(input)
 
         for index in range(len(predicted)):
+            self.confusion_matrix[actual[index]][predicted[index]] += 1
             if predicted[index] == actual[index]:
-                success_count += 1
+                self.success_count += 1
             else:
-                failure_count += 1
+                self.failure_count += 1
 
-        print("success - ", success_count)
-        print("failure - ", failure_count)
+    def print_metrics(self):
+        print("correct classification - ", self.success_count)
+        print("incorrect classification - ", self.failure_count)
+        print("accuracy - ", self.success_count*1.0/(self.success_count+self.failure_count), "\n")
+        print("\t\t"+self.classes[0]+"\t\t"+self.classes[1]+"\t\t"+self.classes[2]+"\n")
+        for i in range(3):
+            line = self.classes[i]
+            for j in range(3):
+                line += "\t\t" + str(self.confusion_matrix[self.classes[i]][self.classes[j]])
+            print(line+"\n")
 
     def classify(self):
         pip = self.train()
         self.test(pip)
+        self.print_metrics()
 
 
 #tfidf = TfIdfClassifier()
 #tfidf.classify()
-
-

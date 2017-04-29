@@ -1,5 +1,7 @@
 import os
 import re
+import pandas as pd
+import numpy as np
 
 from collections import Counter
 
@@ -97,7 +99,7 @@ def nb_predict(doc):
       boolean_BoW_of_this_doc.add(word)
 
   for cl in classes:
-    multi_variate_bernoulli_nb[cl] = 1
+    multi_variate_bernoulli_nb[cl] = fraction_of_docs_per_class[cl]
 
     for feature in total_features:
       if feature in boolean_BoW_of_this_doc:
@@ -107,3 +109,42 @@ def nb_predict(doc):
 
   return sorted(multi_variate_bernoulli_nb, key = lambda x: multi_variate_bernoulli_nb[x], reverse = True)[0]
 
+def nb_test():
+  test_result = {}
+
+  classes = ['DR', 'DT', 'L']
+  fraction_of_docs_per_class, likelihood_of_features_per_class, total_features = nb_train()
+  boolean_BoW_of_this_doc = set()
+  multi_variate_bernoulli_nb = {}
+
+  test_files = os.listdir('./data/'+'TEST')
+  for doc in test_files:
+      if doc.find('.txt') >=0:
+        doc_path = os.path.join('./data/TEST',doc)
+        str_txt = preprocessing(doc_path)
+        for word in str_txt.split():
+          if word in total_features:
+            boolean_BoW_of_this_doc.add(word)
+
+        for cl in classes:
+          multi_variate_bernoulli_nb[cl] = fraction_of_docs_per_class[cl]
+
+          for feature in total_features:
+            if feature in boolean_BoW_of_this_doc:
+              multi_variate_bernoulli_nb[cl] *= likelihood_of_features_per_class[cl][feature]
+            else:
+              multi_variate_bernoulli_nb[cl] *= 1 - likelihood_of_features_per_class[cl][feature]
+
+        test_result[doc] = sorted(multi_variate_bernoulli_nb, key = lambda x: multi_variate_bernoulli_nb[x], reverse = True)[0]
+  return test_result
+
+def evaluation(test_result):
+  classes = ['DR', 'DT', 'L']
+  confusion_matrix = {'DR':{'DR':0,'DT':0,'L':0}, 'DT':{'DR':0,'DT':0,'L':0}, 'L':{'DR':0,'DT':0,'L':0}}
+  with open('./data/test-results.txt') as fo:
+    str_txt = fo.read().split()
+    for item in str_txt:
+      doc, real_cl = item.split(',')
+      test_cl = test_result[doc]
+      confusion_matrix[real_cl][test_cl] += 1
+  return confusion_matrix
