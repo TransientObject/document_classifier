@@ -183,9 +183,9 @@ class Perceptron:
 
     def classify(self):
         # found using the above step
-        self.extract_feature_set()
-        self.train_perceptrons()
-        #self.use_saved_training_params()
+        #self.extract_feature_set()
+        #self.train_perceptrons()
+        self.use_saved_training_params()
         self.run_test_suite()
         self.print_metrics()
 

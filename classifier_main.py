@@ -9,7 +9,7 @@ import sys
 if __name__=="__main__":
     if(len(sys.argv) < 2):
         print("invalid format - To run, execute classifier_main.py [a|b|c|d|e|f]")
-        print("a - intelligrep\nb - naive bayes\nc - naive bayes improved1\nd - naive bayes improved2\ne - perceptron\nf - tfidf\ne - improved nb\n")
+        print("a - intelligrep\nb - naive bayes\nc - naive bayes improved1\nd - naive bayes improved2\ne - perceptron\nf - tfidf\n")
         exit(0)
 
     method = str(sys.argv[1])
