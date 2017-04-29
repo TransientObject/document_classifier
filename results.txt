@@ -94,6 +94,29 @@ recall of class  L 0.9066666666666666
 
 Perceptron
 
+correct classification -  109
+incorrect classification -  116
+accuracy -  0.48444
+
+                DR              DT              L
+
+DR              67              5               3
+
+DT              48              27              0
+
+L               43              17              15
+
+precision of class  DR 1.0
+recall of class  DR 0.04
+
+precision of class  DT 0.29
+recall of class  DT 0.4
+
+precision of class  L 0.62
+recall of class  L 0.98
+
+
+
 TFIDF / SGD Classifier
 
 correct classification -  225
