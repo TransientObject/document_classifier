@@ -88,6 +88,11 @@ class TfIdfClassifier:
                 line += "\t\t" + str(self.confusion_matrix[self.classes[i]][self.classes[j]])
             print(line+"\n")
 
+        for cl in self.classes:
+            numerator = self.confusion_matrix[cl][cl] * 1.0
+            print ("precision of class ", cl, numerator / sum([self.confusion_matrix[j][cl] for j in self.classes]))
+            print ("recall of class ", cl, numerator / sum([self.confusion_matrix[cl][j] for j in self.classes]), "\n")
+
     def classify(self):
         pip = self.train()
         self.test(pip)

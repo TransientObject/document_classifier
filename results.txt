@@ -1,0 +1,50 @@
+Naive Bayes Improved Version 1
+
+correct classification -  212
+incorrect classification -  13
+accuracy -  0.9422222222222222
+
+		DR		DT		L
+
+DR		74		0		1
+
+DT		10		65		0
+
+L		1		1		73
+
+precision of class  DR 0.8705882352941177
+recall of class  DR 0.9866666666666667
+
+precision of class  DT 0.9848484848484849
+recall of class  DT 0.8666666666666667
+
+precision of class  L 0.9864864864864865
+recall of class  L 0.9733333333333334
+
+
+Naive Bayes Improved Version 2
+
+correct classification -  201
+incorrect classification -  24
+accuracy -  0.8933333333333333
+
+		DR		DT		L
+
+DR		75		0		0
+
+DT		17		58		0
+
+L		7		0		68
+
+precision of class  DR 0.7575757575757576
+recall of class  DR 1.0
+
+precision of class  DT 1.0
+recall of class  DT 0.7733333333333333
+
+precision of class  L 1.0
+recall of class  L 0.9066666666666666
+
+
+Perceptron
+
